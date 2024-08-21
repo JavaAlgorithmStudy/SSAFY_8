@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Solution {
+public class SWEA_1289_원재의_메모리_복구하기 {
 	
 	static BufferedReader br;
 	static StringBuilder sb;
