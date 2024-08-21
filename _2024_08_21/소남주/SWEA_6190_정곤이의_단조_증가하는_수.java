@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Solution {
+public class SWEA_6190_정곤이의_단조_증가하는_수 {
 	
 	static BufferedReader br;
 	static StringBuilder sb;

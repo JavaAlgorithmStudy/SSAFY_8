@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Solution {
+public class SWEA_4613_러시아_국기_같은_깃발 {
      
     static BufferedReader br;
     static StringBuilder sb;
