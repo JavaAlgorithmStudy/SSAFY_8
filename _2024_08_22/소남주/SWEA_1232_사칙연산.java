@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Stack;
 
-public class Solution {
+public class SWEA_1232_사칙연산 {
 	
 	static BufferedReader br;
 	static StringBuilder sb;
