@@ -9,7 +9,7 @@ import java.util.List;
 - 한 줄에 입력받는 요소의 수가 1개 -> 연산 2: 루트 노드 키 값 출력 후, 해당 노드 삭제
 */
 
-public class Solution {
+public class SWEA_2930_힙 {
 	
 	static BufferedReader br;
 	static StringBuilder sb;
