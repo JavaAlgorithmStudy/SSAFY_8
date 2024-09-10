@@ -4,12 +4,12 @@ import java.io.IOException;
 import java.util.Scanner;
 class 너의평점은 {
     static Character char1[] = {
-        'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
+        'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};// dummy
     public static void main(String[] args) throws NumberFormatException, IOException {
         Scanner sc = new Scanner(System.in);
         double answer = 0;
-        int subject = 20;
-        double sum =0;
+        int subject = 20;//문제에서 주어진 과목 20개.
+        double sum =0;//과목의 점수와 평점
 
         for (int i = 0; i < 20; i++) {
             String input = sc.nextLine();
