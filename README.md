@@ -20,13 +20,7 @@ GitHub에서 이 프로젝트 오른쪽 상단에 있는 Fork 버튼을 클릭
 ![포크](/images/포크1.png)
 
 
-## 1. Fork된 프로젝트 클론
-cd ~
-cd Documents
-git clone https://github.com/YOUR_USERNAME/PROJECT_NAME.git
 
-![포크](/images/포크3.png)
-![포크](/images/포크2.png)
 
 
 #### 2. 코드 수정 및 커밋
