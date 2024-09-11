@@ -1,8 +1,10 @@
+package _2024_08_27.방승윤;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
  
-public class Solution {
+public class SWEA_2817_부분_수열의_합 {
      
     static int N, K, cnt;
     static int[] A;

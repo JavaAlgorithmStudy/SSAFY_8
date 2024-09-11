@@ -1,8 +1,10 @@
+package _2024_08_28.방승윤;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
  
-public class Solution {
+public class SWEA_4012_요리사 {
      
     static int N, minDiff, cntA, cntB;
     static int[][] ingredient;

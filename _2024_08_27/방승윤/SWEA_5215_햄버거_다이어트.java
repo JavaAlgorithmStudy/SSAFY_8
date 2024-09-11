@@ -1,8 +1,10 @@
+package _2024_08_27.방승윤;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
  
-public class Solution {
+public class SWEA_5215_햄버거_다이어트 {
      
     static int N, L, maxScore;
     static int[][] ingredient;

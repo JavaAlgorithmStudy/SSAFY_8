@@ -1,8 +1,10 @@
+package _2024_08_29.소남주;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Solution {
+public class SWEA_6808_규영이와_인영이의_카드게임 {
 	
 	static BufferedReader br;
 	static StringBuilder sb;

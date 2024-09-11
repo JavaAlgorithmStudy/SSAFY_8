@@ -1,7 +1,9 @@
+package _2024_08_29.방승윤;
+
 import java.io.*;
 import java.util.*;
 
-public class Solution {
+public class SWEA_6808_규영이와_인영이의_카드게임 {
 	
 	static int total = 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2;
 	static int cnt, temp;
