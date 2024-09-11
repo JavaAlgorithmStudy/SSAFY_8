@@ -1,8 +1,10 @@
+package _2024_08_26.소남주;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Solution {
+public class SWEA_10726_이진수_표현 {
 	
 	static BufferedReader br;
 	static StringBuilder sb;

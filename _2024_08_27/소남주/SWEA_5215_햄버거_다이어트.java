@@ -1,8 +1,10 @@
+package _2024_08_27.소남주;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Solution {
+public class SWEA_5215_햄버거_다이어트 {
 	
 	static BufferedReader br;
 	static StringBuilder sb;

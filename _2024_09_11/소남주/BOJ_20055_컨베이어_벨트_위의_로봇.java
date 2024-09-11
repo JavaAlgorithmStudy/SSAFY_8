@@ -1,3 +1,6 @@
+package _2024_09_11.소남주;
+
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

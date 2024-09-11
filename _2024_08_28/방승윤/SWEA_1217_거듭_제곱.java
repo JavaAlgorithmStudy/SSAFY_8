@@ -1,6 +1,8 @@
+package _2024_08_28.방승윤;
+
 import java.util.Scanner;
 
-public class Solution {
+public class SWEA_1217_거듭_제곱 {
 	
     public static void main(String[] args) throws Exception {
     	

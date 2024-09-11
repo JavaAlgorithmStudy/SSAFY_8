@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Solution {
+public class SWEA_4012_요리사 {
 	
 	static BufferedReader br;
 	static StringBuilder sb;

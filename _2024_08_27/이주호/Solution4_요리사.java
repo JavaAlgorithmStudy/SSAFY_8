@@ -1,4 +1,4 @@
-
+package _2024_08_27.이주호;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;

@@ -1,3 +1,5 @@
+package _2024_08_27.이주호;
+
 
 import java.util.Scanner;
 import java.io.FileInputStream;

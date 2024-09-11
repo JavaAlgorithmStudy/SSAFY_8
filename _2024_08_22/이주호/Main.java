@@ -1,3 +1,5 @@
+package _2024_08_22.이주호;
+
 import java.util.*;
 class Main{
     static int n;
