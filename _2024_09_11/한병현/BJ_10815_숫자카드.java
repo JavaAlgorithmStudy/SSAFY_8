@@ -5,6 +5,8 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
+// 카드의 개수가 최대 500,000개, 찾을 숫자 수가 500,000개 이기 때문에
+// 시간복잡도를 줄이기 위해 이진탐색을 사용
 public class BJ_10815_숫자카드 {
 	static int N, M;
 	static int[] card;
@@ -42,6 +44,7 @@ public class BJ_10815_숫자카드 {
 			exam[i] = Integer.parseInt(st.nextToken());
 		}
 		
+		// 문제에서 요구하는 형식으로 답을 출력
 		for(int i = 0; i < M; i++) {
 			search(i);
 			sb.append(result[i]).append(" ");
@@ -49,7 +52,7 @@ public class BJ_10815_숫자카드 {
 		
 		System.out.println(sb);
 	}
-	
+	// 이진 탐색 메서드
 	static void search(int idx) {
 		int L = 0;
 		int R = card.length - 1;
