@@ -1,4 +1,4 @@
-package _2024_09_11.한병현;
+package _2024_09._2024_09_11.한병현;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
