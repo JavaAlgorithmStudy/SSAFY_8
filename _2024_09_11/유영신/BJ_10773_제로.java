@@ -16,13 +16,14 @@ public class BJ_10773_제로 {
 		for (int i = 0; i < K; i++) {
 			int n = Integer.parseInt(br.readLine());
 
-			if (n != 0) {
+			if (n != 0) { // n이 0이 아니면 push
 				stack.push(n);
-			} else {
+			} else { // n이 0이면 top에 있는 값 pop
 				stack.pop();
 			}
 		}
 		
+		// 스택에 쌓여있는 값들을 비어있을때까지 돌면서 sum에 더해준다.
 		while(!stack.isEmpty()) {
 			sum += stack.pop();
 		}
