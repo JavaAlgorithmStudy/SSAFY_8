@@ -36,3 +36,4 @@ public class BJ_12865_평범한배낭{
 		System.out.println(dp[N][K]);
 	}
 }
+// 테스트
