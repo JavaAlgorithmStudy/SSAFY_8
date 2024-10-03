@@ -27,11 +27,7 @@ public class BOJ_11575_Affine_cipher {
 			
 			sb.append("\n");
 		}
-		
-<<<<<<< HEAD
-=======
-		
->>>>>>> 034651bc62f9d0dd204a0a8a8b926c7e88c054d9
+
 		System.out.println(sb);
 
 	}
