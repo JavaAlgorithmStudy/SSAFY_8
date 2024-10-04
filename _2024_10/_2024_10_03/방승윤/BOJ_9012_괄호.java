@@ -2,7 +2,6 @@ package _2024_10._2024_10_03.방승윤;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.Stack;
 
 public class BOJ_9012_괄호 {
 
