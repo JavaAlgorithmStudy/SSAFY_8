@@ -2,8 +2,6 @@ package _2024_10._2024_10_20.방승윤;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.Collections;
-import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
 public class BOJ_2630_색종이_만들기 {
