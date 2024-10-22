@@ -2,8 +2,6 @@ package _2024_10._2024_10_08.유영신;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.List;
 
 // 회문이면 0, 유사회문이면 1, 그 외는 2를 출력
 public class BJ_17609_회문 {
@@ -20,6 +18,7 @@ public class BJ_17609_회문 {
 			result = 0;
 			countL = 0;
 			countR = 0;
+			
 			checkPalindrome(st);
 
 			System.out.println(result);
