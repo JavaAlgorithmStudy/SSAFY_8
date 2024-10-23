@@ -44,12 +44,14 @@ public class BJ_17162_가희의수열놀이 {
 
 			} else if (command == 2 && !globalStack.isEmpty()) {
 				int num = globalStack.peek();
-				globalStack.pop();
 
 				int modValue = num % mod;
 				if (!modStack[modValue].isEmpty()) {
 					modStack[modValue].pop(); // pop 하기 전에 비어있는지 확인
 				}
+
+				globalStack.pop();
+				
 			} else if (command == 3) {
 				check();
 			}
