@@ -16,16 +16,27 @@ public class BJ_2579_계단오르기 {
 		for (int i = 1; i <= stairs; i++) {
 			arr[i] = Integer.parseInt(br.readLine());
 		}
-		System.out.println(Arrays.toString(arr));
 
-		dp[1] = arr[1];
-		dp[2] = arr[2];
-
-		for (int i = 3; i <= stairs; i++) {
-			dp[i] = arr[i] + Math.max(dp[i - 2], dp[i - 1]);
+		if (stairs == 1) {
+			System.out.println(arr[1]);
+			return;
 		}
 
-		System.out.println(Arrays.toString(dp));
+		if (stairs == 2) {
+			System.out.println(arr[1] + arr[2]);
+			return;
+		}
+
+		dp[1] = arr[1];
+		dp[2] = arr[1] + arr[2];
+
+		for (int i = 3; i <= stairs; i++) {
+			// 3계단 전에서 2칸 1칸뛰는경우, 2계단 전에서 2칸뛰는 경우
+			dp[i] = Math.max(dp[i - 3] + arr[i - 1], dp[i - 2]) + arr[i];
+
+		}
+
+		System.out.println(dp[stairs]);
 
 	}
 }
