@@ -45,7 +45,7 @@ public class BJ_18111_마인크래프트 {
 		int time = 0;
 		for (int i = 0; i < countArr.length; i++) {
 			for (int j = 0; j < countArr.length; j++) {
-				time += (countArr[j - i] * 2 * 2 * (j - i));
+				time += (countArr[j - i] * 2 * (j - i));
 			}
 		}
 
