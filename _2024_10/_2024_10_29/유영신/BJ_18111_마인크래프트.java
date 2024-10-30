@@ -45,24 +45,7 @@ public class BJ_18111_마인크래프트 {
 				height = i;
 			}
 		}
-<<<<<<< HEAD
-
-//		for(int[] a : arr) {
-//			System.out.println(Arrays.toString(a));
-//		}
-//		
-//		System.out.println(Arrays.toString(countArr));
-
-		int time = 0;
-		for (int i = 0; i < countArr.length; i++) {
-			for (int j = 0; j < countArr.length; j++) {
-				time += (countArr[j - i] * 2 * (j - i));
-			}
-		}
-
-=======
 		System.out.println(time + " " + height);
->>>>>>> d07fd2097399c2c52815e1c97377b4ba400a3d4c
 	}
 
 	private static int timeSum(int i) {
